@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Mountaineering - Conquer Heights</title>
+    <link rel="icon" href="img/core-img/favicon.png">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        
+        .flex-container{
+            width: 90%;
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0px auto;
+        }
+        .flex-container > div{
+            flex-basis: 40%;
+            min-width: 400px;
+            margin: 0px auto;
+        }
+
+        select{
+            width: 90%;
+            margin: 0px auto;
+            height: 25px;
+            padding-left: 10px;
+            font-size: 16px;
+        }
+        img{
+            width: 100%;
+            height: 300px;
+        }
+        .leftcolor,.rightcolor{
+            display: none;
+        }
+    
+        h1 {
+            text-align: center;
+            font-family: monospace;
+            /* padding-top: 1px; */
+            font-size: 45px;
+            /* background-color: rgb(121, 148, 198); */
+            color: black;
+            text-decoration: underline;
+        }
+        p {
+            /* text-align: center; */
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+
+        DD {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+
+        dt {
+            padding-top: 10px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+
+        
+        
+    </style>
+</head>
+
+<body>
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <header class="header-area">
+        <div class="mountaineering-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <nav class="classy-navbar justify-content-between" id="mountaineering">
+                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" style="height: 60px;"
+                                alt=""></a>
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+                        <div class="classy-menu">
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="index.html">HOME</a></li>
+                                    <li><a href="history.html">HISTORY</a></li>
+                                    <li><a href="comp.html">COMPARISON</a></li>
+                                    
+                                   
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="hero-area">
+        <div class="hero-slides owl-carousel">
+            <div class="single-hero-slide d-flex align-items-center justify-content-center">
+                <div class="slide-img bg-img" style="background-image: url(img/bg-img/bg-1.jpg);"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="hero-slides-content text-center">
+                                <h2 data-animation="fadeInUp" data-delay="300ms"> MOUNTAINEERING OR CLIMBING</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-hero-slide d-flex align-items-center justify-content-center">
+                <div class="slide-img bg-img" style="background-image: url(img/bg-img/bg-2.jpg);"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="hero-slides-content text-center">
+                                <h2 data-animation="fadeInUp" data-delay="300ms">
+                                    <span>MOUNTAINEERING</span>CLIMBING</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div>
+        <div class="flex-container">
+            <div>
+                <select name="" id="leftselect" onchange="myfun()">
+                <option value="1">MOUNTAINEERING</option>
+                <option value="2">For Montaineering</option>
+                <option value="3">Techiques</option>
+            </select>
+            </div>
+            <div>
+                <select name="" id="rightselect" onchange="myfun2()">
+                <option value="1">MOUNTAIN CLIMBING</option>
+                <option value="2">For Climbing</option>
+                <option value="3">Techiques</option>
+            </select>
+            </div>
+        </div>
+    
+        <hr>
+        <div class="flex-container">
+    
+            <div id="left">
+                <div class="leftcolor">
+                <img src="./img/compare/mount3.jpg"  alt="">
+                <h3>Definition:</h3>
+                <p>Mountaineering requests especifiic subsets of climbing that forces on reaching remote summits via techincally difficult routes, often in winters.</p>
+                </div>
+            
+    
+    
+                <div class="leftcolor">
+                <img src="./img/compare/k.jpg"  alt="">
+                <h3>Easiest One to climb</h3>
+                <p>Mount Kilimanjaro, Tanzania (5,895 m).</p>
+            </div>
+    
+                <div class="leftcolor">
+                <img src="./img/compare/h1.jpg"  alt="">
+                <h3>Hiking</h3>
+                <p>It is the most followed technique for mount climbing.</p>
+            </div>
+        </div>
+        
+        <div id="right">
+            <div class="rightcolor">
+            <img src="./img/compare/climb.jpg"  alt="">
+            <h3>Definition:</h3>
+            <p>It is a board category of activities that involves travelling to peak with the interst of reaching summit.</p>
+        </div>
+    
+        
+            <div class="rightcolor">
+            <img src="./img/compare/d6.jpg" alt="">
+            <h3>Remote Mountain (The difficult One)</h3>
+            <p>Mount Khuiten (4,356 m).</p>
+        </div>
+    
+    
+            <div class="rightcolor">
+            <img src="./img/compare/c1.jpg"  alt="">
+            <h3>Ice Climbing</h3>
+            <p>This technique is popular all around the world for climbing the remote mountains.</p>
+        </div>
+    </div>
+    <script>
+        function myfun(){
+            const left = document.getElementById("leftselect");
+    
+            if(left.value == "1")
+            {
+                document.getElementsByClassName("leftcolor")[0].style.display = "block";
+                document.getElementsByClassName("leftcolor")[1].style.display = "none";
+                document.getElementsByClassName("leftcolor")[2].style.display = "none";
+                
+            }
+    
+            if(left.value == "2")
+            {
+                document.getElementsByClassName("leftcolor")[0].style.display = "none";
+                document.getElementsByClassName("leftcolor")[1].style.display = "block";
+                document.getElementsByClassName("leftcolor")[2].style.display = "none";
+                
+            }
+            
+            if(left.value == "3")
+            {
+                document.getElementsByClassName("leftcolor")[0].style.display = "none";
+                document.getElementsByClassName("leftcolor")[1].style.display = "none";
+                document.getElementsByClassName("leftcolor")[2].style.display = "block";
+                
+            }
+        }
+    
+        function myfun2(){
+            const right = document.getElementById("rightselect");
+    
+            if(right.value == "1")
+            {
+                document.getElementsByClassName("rightcolor")[0].style.display = "block";
+                document.getElementsByClassName("rightcolor")[1].style.display = "none";
+                document.getElementsByClassName("rightcolor")[2].style.display = "none";
+                
+            }
+    
+            if(right.value == "2")
+            {
+                document.getElementsByClassName("rightcolor")[0].style.display = "none";
+                document.getElementsByClassName("rightcolor")[1].style.display = "block";
+                document.getElementsByClassName("rightcolor")[2].style.display = "none";
+                
+            }
+            
+            if(right.value == "3")
+            {
+                document.getElementsByClassName("rightcolor")[0].style.display = "none";
+                document.getElementsByClassName("rightcolor")[1].style.display = "none";
+                document.getElementsByClassName("rightcolor")[2].style.display = "block";
+                
+            }
+        }
+    
+    </script>
+    </div>
+
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row d-flex flex-wrap align-items-center">
+                <div class="col-12 col-md-5">
+                    <a href="#"><img src="img/core-img/logo.png" alt=""></a>
+                    <div class="fs-social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-tumblr"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </div>
+                    <p class="copywrite-text"><a href="#">
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved | This
+                            Website is made
+                            by<i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" target="_blank">Aptech
+                                Std</a></p>
+                </div>
+
+                <section class="update-area section-padding-100">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-md-12">
+                                <div class="update-content">
+                                    <h3>Stay updated on adventures </h3>
+                                    <div class="update-form">
+                                        <form action="#" method="post">
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Email address</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                                    aria-describedby="emailHelp" placeholder="Enter E-mail">
+                                                <small id="emailHelp" class="form-text text-muted"><i
+                                                        class="fa fa-lock mr-2"></i>We'll never share your email with
+                                                    anyone else.</small>
+                                            </div>
+                                            <button type="submit" class="btn mountaineering-btn mt-30">SUBMIT</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- <div class="col-12 col-md-3">
+                    <h3>TOP MOUNTAINS</h3>
+               <ul>
+                <li><a href="#">Brazil</a></li>
+                <li><a href="#">Germany</a></li>
+                <li><a href="#">Italy</a></li>
+                 <li><a href="#">Argentina</a></li>
+                 <li><a href="#">France</a></li>
+               </ul>
+            </div> -->
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap/popper.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/plugins/plugins.js"></script>
+    <script src="js/active.js"></script>
+</body>
+
+</html>
