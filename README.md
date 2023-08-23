@@ -44,7 +44,7 @@ Contributions are welcome! If you'd like to contribute to the project, follow th
 2. Create a new branch for your feature or improvement:
 
 
-#images
+## ScreenShots
 ![m1](https://github.com/madiha2323/Mountains/assets/109577656/2ce5dfbf-c90e-4332-9af3-744216394e89)
 ![m2](https://github.com/madiha2323/Mountains/assets/109577656/efba97e7-8df0-478c-81d9-9af2235a1965)
 ![m3](https://github.com/madiha2323/Mountains/assets/109577656/321fe6ac-00d2-427f-b2e0-bfe9567260aa)
