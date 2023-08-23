@@ -1,6 +1,6 @@
 # Mountains Frontend Project
 
-![Mountains](screenshot.png)
+![Mountains]
 
 Welcome to the **Mountains** frontend project repository! Immerse yourself in a virtual journey of mountaineering exploration and climbing competitions. This project is developed using HTML, CSS, Bootstrap, and JavaScript, offering a captivating experience for those interested in the world of mountains.
 
@@ -42,4 +42,12 @@ Contributions are welcome! If you'd like to contribute to the project, follow th
 
 1. Fork the repository.
 2. Create a new branch for your feature or improvement:
+
+
+#images
+![m1](https://github.com/madiha2323/Mountains/assets/109577656/2ce5dfbf-c90e-4332-9af3-744216394e89)
+![m2](https://github.com/madiha2323/Mountains/assets/109577656/efba97e7-8df0-478c-81d9-9af2235a1965)
+![m3](https://github.com/madiha2323/Mountains/assets/109577656/321fe6ac-00d2-427f-b2e0-bfe9567260aa)
+![m4](https://github.com/madiha2323/Mountains/assets/109577656/0b7d874f-401f-4916-8127-94bf85c267ba)
+
 
